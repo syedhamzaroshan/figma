@@ -1,0 +1,234 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+#icon1 {
+  font-size: 22px;
+}
+
+#icon2 {
+  font-size: 22px;
+}
+
+#icon3 {
+  font-size: 22px;
+}
+
+#icon4 {
+  font-size: 22px;
+}
+
+#icon5 {
+  font-size: 22px;
+}
+
+#icon6 {
+  font-size: 22px;
+}
+
+.navbar {
+  position: fixed;
+  width: 1920px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.16);
+}
+
+i{
+  width: 32px;
+  height: 32px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#img1 {
+  margin-top: 8px;
+  margin-left: 55px;
+  width: 48px;
+  height: 58px;
+  background: url(../img/download.png);
+  border-radius: 26px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#sm {
+  position: fixed;
+  left: 110px;
+  right: 0%;
+  top: 20px;
+  bottom: 25%;
+  width: 183px;
+  height: 24px;
+  
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2D68FE;
+}
+
+#search  {
+  box-sizing: border-box;
+  position: absolute;
+  width: 636px;
+  height: 48px;
+  left: 367px;
+  top: 16px;
+
+
+  background: #FFFFFF;
+  border: 1px solid rgba(148, 163, 184, 0.6);
+  border-radius: 6px;
+}
+
+#img {
+  position: relative;
+  left: 19.79%;
+  right: 19.79%;
+  top: -25px;
+  bottom: 19.79%;
+  width: 18px;
+  
+
+
+
+  border: 1.5px solid #94A3B8;
+}
+
+#srch {
+position: absolute;
+width: 384px;
+height: 24px;
+left: 44px;
+top: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+
+
+
+color: #94A3B8;
+}
+
+
+#status
+{box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 4px;
+
+position: fixed;
+width: 152px;
+height: 38px;
+left: 1522px;
+top: 21px;
+
+background: #D1FAE5;
+border-radius: 100px;
+}
+.sidenav {
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 80px;
+  left: 0;
+  background-color: #0F172A;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-radius: 0;
+}
+
+.connect {
+  position: absolute;
+width: 94px;
+height: 22px;
+left: 42px;
+top: 8px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+
+
+/* success/500 */
+
+color: #10B981;
+}
+
+#ellipse {
+  width: 10px;
+height: 10px;
+margin-right: 90px;
+
+
+background: #10B981;
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#vector {
+  position: absolute;
+left: 88.65%;
+right: 10.1%;
+top: 30.73%;
+bottom: 94.92%;
+width: 25px;
+height: 25px;
+
+border: 2px solid #0F172A;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
